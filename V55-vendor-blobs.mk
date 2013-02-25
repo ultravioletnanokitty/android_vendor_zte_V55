@@ -53,25 +53,6 @@ PRODUCT_COPY_FILES += \
 	vendor/zte/V55/proprietary/lib/libsc-a2xx.so:system/lib/libsc-a2xx.so \
 	vendor/zte/V55/proprietary/lib/libc2d2_z180.so:system/lib/libc2d2_z180.so \
 #	vendor/zte/V55/proprietary/lib/liboverlay.so:system/lib/liboverlay.so \
-
-# Firmware	
-PRODUCT_COPY_FILES += \
-	vendor/zte/V55/proprietary/etc/firmware/a225_pfp.fw:system/etc/firmware/a225_pfp.fw \
-	vendor/zte/V55/proprietary/etc/firmware/a225_pm4.fw:system/etc/firmware/a225_pm4.fw \
-	vendor/zte/V55/proprietary/etc/firmware/a225p5_pm4.fw:system/etc/firmware/a225p5_pm4.fw \
-	vendor/zte/V55/proprietary/etc/firmware/yamato_pfp.fw:system/etc/firmware/yamato_pfp.fw \
-	vendor/zte/V55/proprietary/etc/firmware/yamato_pm4.fw:system/etc/firmware/yamato_pm4.fw \
-	vendor/zte/V55/proprietary/etc/firmware/bcm.hcd:system/etc/firmware/bcm.hcd \
-	vendor/zte/V55/proprietary/etc/firmware/dsps_fluid.b00:system/etc/firmware/dsps_fluid.b00 \
-	vendor/zte/V55/proprietary/etc/firmware/dsps_fluid.b01:system/etc/firmware/dsps_fluid.b01 \
-	vendor/zte/V55/proprietary/etc/firmware/dsps_fluid.b02:system/etc/firmware/dsps_fluid.b02 \
-	vendor/zte/V55/proprietary/etc/firmware/dsps_fluid.b03:system/etc/firmware/dsps_fluid.b03 \
-	vendor/zte/V55/proprietary/etc/firmware/dsps_fluid.mdt:system/etc/firmware/dsps_fluid.mdt \
-	vendor/zte/V55/proprietary/etc/firmware/leia_pfp_470.fw:system/etc/firmware/leia_pfp_470.fw \
-	vendor/zte/V55/proprietary/etc/firmware/leia_pm4_470.fw:system/etc/firmware/leia_pm4_470.fw \
-	vendor/zte/V55/proprietary/etc/firmware/vidc_1080p.fw:system/etc/firmware/vidc_1080p.fw \
-	vendor/zte/V55/proprietary/etc/wifi/apsta_bcm4330_b2.bin:system/etc/wifi/apsta_bcm4330_b2.bin \
-	vendor/zte/V55/proprietary/etc/wifi/bcm4330_b2.bin:system/etc/wifi/bcm4330_b2.bin \
 	
 # Camera
 #PRODUCT_COPY_FILES += \
