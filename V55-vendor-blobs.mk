@@ -23,14 +23,14 @@ PRODUCT_COPY_FILES += \
 #	vendor/zte/V55/proprietary/bin/mpdecision:system/bin/mpdecision \
 
 # Audio Files
-#PRODUCT_COPY_FILES += \
-#	vendor/zte/V55/proprietary/lib/libaudioalsa.so:obj/lib/libaudioalsa.so \
-#	vendor/zte/V55/proprietary/lib/libacdbloader.so:obj/lib/libacdbloader.so \
-#	vendor/zte/V55/proprietary/lib/libacdbmapper.so:obj/lib/libacdbmapper.so \
-#	vendor/zte/V55/proprietary/lib/libaudcal.so:obj/lib/libaudcal.so \
-#	vendor/zte/V55/proprietary/lib/libaudio.so:obj/lib/libaudio.so \
-#	vendor/zte/V55/proprietary/lib/libdiag.so:obj/lib/libdiag.so \
-#	vendor/zte/V55/proprietary/lib/libaudiopolicy.so:obj/lib/libaudiopolicy.so \
+PRODUCT_COPY_FILES += \
+	vendor/zte/V55/proprietary/lib/libaudioalsa.so:obj/lib/libaudioalsa.so \
+	vendor/zte/V55/proprietary/lib/libacdbloader.so:obj/lib/libacdbloader.so \
+	vendor/zte/V55/proprietary/lib/libacdbmapper.so:obj/lib/libacdbmapper.so \
+	vendor/zte/V55/proprietary/lib/libaudcal.so:obj/lib/libaudcal.so \
+	vendor/zte/V55/proprietary/lib/libaudio.so:obj/lib/libaudio.so \
+	vendor/zte/V55/proprietary/lib/libdiag.so:obj/lib/libdiag.so \
+	vendor/zte/V55/proprietary/lib/libaudiopolicy.so:obj/lib/libaudiopolicy.so \
 #	vendor/zte/V55/proprietary/lib/libaudcal.so:system/lib/libaudcal.so \
 #	vendor/zte/V55/proprietary/lib/libacdbmapper.so:system/lib/libacdbmapper.so \
 #	vendor/zte/V55/proprietary/lib/libacdbloader.so:system/lib/libacdbloader.so \
