@@ -19,8 +19,6 @@ PRODUCT_COPY_FILES += \
 	vendor/zte/V55/proprietary/bin/usbhub_init:system/bin/usbhub_init \
 	vendor/zte/V55/proprietary/bin/radish:system/bin/radish \
 	vendor/zte/V55/proprietary/bin/hdmid:system/bin/hdmid \
-#	vendor/zte/V55/proprietary/bin/thermald:system/bin/thermald \
-#	vendor/zte/V55/proprietary/bin/mpdecision:system/bin/mpdecision \
 
 # Audio Files
 PRODUCT_COPY_FILES += \
@@ -52,7 +50,6 @@ PRODUCT_COPY_FILES += \
 	vendor/zte/V55/proprietary/lib/libOpenVG.so:system/lib/libOpenVG.so \
 	vendor/zte/V55/proprietary/lib/libsc-a2xx.so:system/lib/libsc-a2xx.so \
 	vendor/zte/V55/proprietary/lib/libc2d2_z180.so:system/lib/libc2d2_z180.so \
-#	vendor/zte/V55/proprietary/lib/liboverlay.so:system/lib/liboverlay.so \
 	
 # Camera
 #PRODUCT_COPY_FILES += \
@@ -85,6 +82,6 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES += \
 	vendor/zte/V55/proprietary/lib/libcommondefs.so:system/lib/libcommondefs.so \
 	vendor/zte/V55/proprietary/lib/libwiperjni.so:system/lib/libwiperjni.so \
-	vendor/zte/V55/proprietary/lib/libloc_api-rpc-qc.so:system/lib/libloc_api-rpc-qc.so \
-	vendor/zte/V55/proprietary/lib/libloc_ext.so:system/lib/libloc_ext.so \
+#	vendor/zte/V55/proprietary/lib/libloc_api-rpc-qc.so:system/lib/libloc_api-rpc-qc.so \
+#	vendor/zte/V55/proprietary/lib/libloc_ext.so:system/lib/libloc_ext.so \
 #	vendor/zte/V55/proprietary/lib/libtcpfinaggr.so:system/lib/libtcpfinaggr.so \
