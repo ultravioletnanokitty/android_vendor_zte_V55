@@ -82,6 +82,6 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES += \
 	vendor/zte/V55/proprietary/lib/libcommondefs.so:system/lib/libcommondefs.so \
 	vendor/zte/V55/proprietary/lib/libwiperjni.so:system/lib/libwiperjni.so \
-#	vendor/zte/V55/proprietary/lib/libloc_api-rpc-qc.so:system/lib/libloc_api-rpc-qc.so \
-#	vendor/zte/V55/proprietary/lib/libloc_ext.so:system/lib/libloc_ext.so \
-#	vendor/zte/V55/proprietary/lib/libtcpfinaggr.so:system/lib/libtcpfinaggr.so \
+	vendor/zte/V55/proprietary/lib/libloc_api-rpc-qc.so:system/lib/libloc_api-rpc-qc.so \
+	vendor/zte/V55/proprietary/lib/libloc_ext.so:system/lib/libloc_ext.so \
+	vendor/zte/V55/proprietary/lib/libtcpfinaggr.so:system/lib/libtcpfinaggr.so \
