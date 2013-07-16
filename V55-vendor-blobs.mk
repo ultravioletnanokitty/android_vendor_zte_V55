@@ -28,7 +28,6 @@ PRODUCT_COPY_FILES += \
 	vendor/zte/V55/proprietary/lib/libdsutils.so:system/lib/libdsutils.so \
 	vendor/zte/V55/proprietary/lib/libqmiservices.so:system/lib/libqmiservices.so \
 	vendor/zte/V55/proprietary/lib/libidl.so:system/lib/libidl.so \
-	vendor/zte/V55/proprietary/lib/libdsi_netctrl.so:system/lib/libdsi_netctrl.so \
 	vendor/zte/V55/proprietary/lib/libnetmgr.so:system/lib/libnetmgr.so \
 	vendor/zte/V55/proprietary/lib/libqdp.so:system/lib/libqdp.so \
 	vendor/zte/V55/proprietary/lib/libtime_genoff.so:system/lib/libtime_genoff.so \
