@@ -33,9 +33,7 @@ PRODUCT_COPY_FILES += \
 	vendor/zte/V55/proprietary/lib/libqdp.so:system/lib/libqdp.so \
 	vendor/zte/V55/proprietary/lib/libtime_genoff.so:system/lib/libtime_genoff.so \
 	vendor/zte/V55/proprietary/lib/libreference-ril.so:system/lib/libreference-ril.so \
-	vendor/zte/V55/proprietary/lib/libreference-ril.so:obj/lib/libreference-ril.so \
 	vendor/zte/V55/proprietary/lib/libril.so:system/lib/libril.so \
-	vendor/zte/V55/proprietary/lib/libril.so:obj/lib/libril.so \
 	vendor/zte/V55/proprietary/lib/libqc-opt.so:system/lib/libqc-opt.so \
 	
 # Audio
