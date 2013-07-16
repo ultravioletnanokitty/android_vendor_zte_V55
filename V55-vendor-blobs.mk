@@ -20,7 +20,25 @@ PRODUCT_COPY_FILES += \
 	vendor/zte/V55/proprietary/bin/radish:system/bin/radish \
 	vendor/zte/V55/proprietary/bin/hdmid:system/bin/hdmid \
 
-# Audio Files
+# Radio
+PRODUCT_COPY_FILES += \
+	vendor/zte/V55/proprietary/lib/libril-qc-qmi-1.so:system/lib/libril-qc-qmi-1.so \
+	vendor/zte/V55/proprietary/lib/libril-qcril-hook-oem.so:system/lib/libril-qcril-hook-oem.so \
+	vendor/zte/V55/proprietary/lib/libqmi.so:system/lib/libqmi.so \
+	vendor/zte/V55/proprietary/lib/libdsutils.so:system/lib/libdsutils.so \
+	vendor/zte/V55/proprietary/lib/libqmiservices.so:system/lib/libqmiservices.so \
+	vendor/zte/V55/proprietary/lib/libidl.so:system/lib/libidl.so \
+	vendor/zte/V55/proprietary/lib/libdsi_netctrl.so:system/lib/libdsi_netctrl.so \
+	vendor/zte/V55/proprietary/lib/libnetmgr.so:system/lib/libnetmgr.so \
+	vendor/zte/V55/proprietary/lib/libqdp.so:system/lib/libqdp.so \
+	vendor/zte/V55/proprietary/lib/libtime_genoff.so:system/lib/libtime_genoff.so \
+	vendor/zte/V55/proprietary/lib/libreference-ril.so:system/lib/libreference-ril.so \
+	vendor/zte/V55/proprietary/lib/libreference-ril.so:obj/lib/libreference-ril.so \
+	vendor/zte/V55/proprietary/lib/libril.so:system/lib/libril.so \
+	vendor/zte/V55/proprietary/lib/libril.so:obj/lib/libril.so \
+	vendor/zte/V55/proprietary/lib/libqc-opt.so:system/lib/libqc-opt.so \
+	
+# Audio
 PRODUCT_COPY_FILES += \
 	vendor/zte/V55/proprietary/lib/libaudioalsa.so:obj/lib/libaudioalsa.so \
 	vendor/zte/V55/proprietary/lib/libacdbloader.so:obj/lib/libacdbloader.so \
@@ -37,7 +55,7 @@ PRODUCT_COPY_FILES += \
 	vendor/zte/V55/proprietary/lib/libaudio.so:system/lib/libaudio.so \
 	vendor/zte/V55/proprietary/lib/libaudiopolicy.so:system/lib/libaudiopolicy.so \
 
-# GPU Drivers	
+# GPU
 PRODUCT_COPY_FILES += \
     vendor/zte/V55/proprietary/lib/egl/libEGL_adreno200.so:system/lib/egl/libEGL_adreno200.so \
     vendor/zte/V55/proprietary/lib/egl/libGLESv1_CM_adreno200.so:system/lib/egl/libGLESv1_CM_adreno200.so \
@@ -68,7 +86,7 @@ PRODUCT_COPY_FILES += \
 #	vendor/zte/V55/proprietary/lib/libcamera.so:obj/lib/libcamera.so \
 #   vendor/zte/V55/proprietary/lib/libcamera.so:system/lib/libcamera.so \
 #	vendor/zte/V55/proprietary/lib/hw/camera.msm8660.so:obj/lib/camera.msm8660.so \
-#   vendor/zte/V55/proprietary/lib/hw/camera.msm8660.so:system/linitinitib/hw/camera.msm8660.so \
+#   vendor/zte/V55/proprietary/lib/hw/camera.msm8660.so:system/lib/hw/camera.msm8660.so \
 	
 # Sensors
 PRODUCT_COPY_FILES += \
