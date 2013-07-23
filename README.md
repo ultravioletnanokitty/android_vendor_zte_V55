@@ -1,4 +1,4 @@
-android_vendor_zte_V55
+android_vendor_zte_smarttab
 ======================
 
-Vendor tree for ZTE V55
+Vendor tree for ZTE SmartTabs
