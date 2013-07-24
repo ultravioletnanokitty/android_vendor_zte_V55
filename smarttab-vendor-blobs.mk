@@ -1,4 +1,4 @@
-###### Proprietary files for ZTE V55/Optik ######
+###### Proprietary files for ZTE SmartTabs ######
 ### Copyright nobody because it's a fucking   ###
 ### Makefile and it's ridiculous to copyright ###
 ### such a document.            --ultraviolet ###
@@ -18,7 +18,7 @@ PRODUCT_COPY_FILES += \
 	vendor/zte/smarttab/proprietary/bin/wiperiface:system/bin/wiperiface \
 	vendor/zte/smarttab/proprietary/bin/usbhub_init:system/bin/usbhub_init \
 	vendor/zte/smarttab/proprietary/bin/radish:system/bin/radish \
-	vendor/zte/smarttab/proprietary/bin/hdmid:system/bin/hdmid \
+	vendor/zte/smarttab/proprietary/bin/hdmid:system/bin/hdmid
 
 # Radio
 PRODUCT_COPY_FILES += \
@@ -33,7 +33,7 @@ PRODUCT_COPY_FILES += \
 	vendor/zte/smarttab/proprietary/lib/libtime_genoff.so:system/lib/libtime_genoff.so \
 	vendor/zte/smarttab/proprietary/lib/libreference-ril.so:system/lib/libreference-ril.so \
 	vendor/zte/smarttab/proprietary/lib/libril.so:system/lib/libril.so \
-	vendor/zte/smarttab/proprietary/lib/libqc-opt.so:system/lib/libqc-opt.so \
+	vendor/zte/smarttab/proprietary/lib/libqc-opt.so:system/lib/libqc-opt.so
 	
 # Audio
 PRODUCT_COPY_FILES += \
@@ -50,7 +50,7 @@ PRODUCT_COPY_FILES += \
 	vendor/zte/smarttab/proprietary/lib/libaudioalsa.so:system/lib/libaudioalsa.so \
 	vendor/zte/smarttab/proprietary/lib/libdiag.so:system/lib/libdiag.so \
 	vendor/zte/smarttab/proprietary/lib/libaudio.so:system/lib/libaudio.so \
-	vendor/zte/smarttab/proprietary/lib/libaudiopolicy.so:system/lib/libaudiopolicy.so \
+	vendor/zte/smarttab/proprietary/lib/libaudiopolicy.so:system/lib/libaudiopolicy.so
 
 # GPU
 PRODUCT_COPY_FILES += \
@@ -64,34 +64,37 @@ PRODUCT_COPY_FILES += \
 	vendor/zte/smarttab/proprietary/lib/libC2D2.so:system/lib/libC2D2.so \
 	vendor/zte/smarttab/proprietary/lib/libOpenVG.so:system/lib/libOpenVG.so \
 	vendor/zte/smarttab/proprietary/lib/libsc-a2xx.so:system/lib/libsc-a2xx.so \
-	vendor/zte/smarttab/proprietary/lib/libc2d2_z180.so:system/lib/libc2d2_z180.so \
+	vendor/zte/smarttab/proprietary/lib/libc2d2_z180.so:system/lib/libc2d2_z180.so
 	
 # Camera
-#PRODUCT_COPY_FILES += \
-#	vendor/zte/smarttab/proprietary/lib/libmmipl.so:system/lib/libmmipl.so \
-#	vendor/zte/smarttab/proprietary/lib/libmmjpeg.so:system/lib/libmmjpeg.so \
-#	vendor/zte/smarttab/proprietary/lib/libmmjpeg.so:obj/lib/libmmjpeg.so \
-#   vendor/zte/smarttab/proprietary/lib/liboemcamera.so:obj/lib/liboemcamera.so \
-#   vendor/zte/smarttab/proprietary/lib/liboemcamera.so:system/lib/liboemcamera.so \
-#	vendor/zte/smarttab/proprietary/lib/libgemini.so:system/lib/libgemini.so \
-#	vendor/zte/smarttab/proprietary/lib/libmmmpo.so:system/lib/libmmmpo.so \
-#   vendor/zte/smarttab/proprietary/bin/v4l2-qcamera-app:system/bin/v4l2-qcamera-app \
-#	vendor/zte/smarttab/proprietary/bin/mm-qcamera-daemon:system/bin/mm-qcamera-daemon \
-#	vendor/zte/smarttab/proprietary/bin/mm-qcamera-test:system/bin/mm-qcamera-test \
-#	vendor/zte/smarttab/proprietary/bin/mm-mpo-enc-test:system/bin/mm-mpo-enc-test \
-#	vendor/zte/smarttab/proprietary/bin/mm-qcamera-testsuite-client:system/bin/mm-qcamera-testsuite-client \
-#	vendor/zte/smarttab/proprietary/lib/libcamera.so:obj/lib/libcamera.so \
-#   vendor/zte/smarttab/proprietary/lib/libcamera.so:system/lib/libcamera.so \
-#	vendor/zte/smarttab/proprietary/lib/hw/camera.msm8660.so:obj/lib/camera.msm8660.so \
-#   vendor/zte/smarttab/proprietary/lib/hw/camera.msm8660.so:system/lib/hw/camera.msm8660.so \
-	
+PRODUCT_COPY_FILES += \
+	vendor/zte/smarttab/proprietary/lib/libmmipl.so:system/lib/libmmipl.so \
+	vendor/zte/smarttab/proprietary/lib/libmmjpeg.so:system/lib/libmmjpeg.so \
+	vendor/zte/smarttab/proprietary/lib/libmmjpeg.so:obj/lib/libmmjpeg.so \
+	vendor/zte/smarttab/proprietary/lib/liboemcamera.so:obj/lib/liboemcamera.so \
+	vendor/zte/smarttab/proprietary/lib/liboemcamera.so:system/lib/liboemcamera.so \
+	vendor/zte/smarttab/proprietary/lib/libgemini.so:system/lib/libgemini.so \
+	vendor/zte/smarttab/proprietary/lib/libmmmpo.so:system/lib/libmmmpo.so \
+	vendor/zte/smarttab/proprietary/lib/libchromatix_imx074_default_video.so:system/lib/libchromatix_imx074_default_video.so \
+	vendor/zte/smarttab/proprietary/lib/libchromatix_imx074_preview.so:system/lib/libchromatix_imx074_preview.so \
+	vendor/zte/smarttab/proprietary/lib/libchromatix_imx074_zsl.so:system/lib/libchromatix_imx074_zsl.so \
+	vendor/zte/smarttab/proprietary/bin/v4l2-qcamera-app:system/bin/v4l2-qcamera-app \
+	vendor/zte/smarttab/proprietary/bin/mm-qcamera-daemon:system/bin/mm-qcamera-daemon \
+	vendor/zte/smarttab/proprietary/bin/mm-qcamera-test:system/bin/mm-qcamera-test \
+	vendor/zte/smarttab/proprietary/bin/mm-mpo-enc-test:system/bin/mm-mpo-enc-test \
+	vendor/zte/smarttab/proprietary/bin/mm-qcamera-testsuite-client:system/bin/mm-qcamera-testsuite-client \
+	vendor/zte/smarttab/proprietary/lib/libcamera.so:obj/lib/libcamera.so \
+	vendor/zte/smarttab/proprietary/lib/libcamera.so:system/lib/libcamera.so \
+	vendor/zte/smarttab/proprietary/lib/hw/camera.msm8660.so:obj/lib/camera.msm8660.so \
+	vendor/zte/smarttab/proprietary/lib/hw/camera.msm8660.so:system/lib/hw/camera.msm8660.so
+
 # Sensors
 PRODUCT_COPY_FILES += \
 	vendor/zte/smarttab/proprietary/lib/libmpl_sys_jni.so:system/lib/libmpl_sys_jni.so \
 	vendor/zte/smarttab/proprietary/lib/libmpl.so:system/lib/libmpl.so \
 	vendor/zte/smarttab/proprietary/lib/libmllite.so:system/lib/libmllite.so \
 	vendor/zte/smarttab/proprietary/lib/libmlplatform.so:system/lib/libmlplatform.so \
-	vendor/zte/smarttab/proprietary/lib/hw/sensors.msm8660.so:system/lib/hw/sensors.msm8660.so \
+	vendor/zte/smarttab/proprietary/lib/hw/sensors.msm8660.so:system/lib/hw/sensors.msm8660.so
 
 # Location Services
 PRODUCT_COPY_FILES += \
@@ -99,4 +102,4 @@ PRODUCT_COPY_FILES += \
 	vendor/zte/smarttab/proprietary/lib/libwiperjni.so:system/lib/libwiperjni.so \
 	vendor/zte/smarttab/proprietary/lib/libloc_api-rpc-qc.so:system/lib/libloc_api-rpc-qc.so \
 	vendor/zte/smarttab/proprietary/lib/libloc_ext.so:system/lib/libloc_ext.so \
-	vendor/zte/smarttab/proprietary/lib/libtcpfinaggr.so:system/lib/libtcpfinaggr.so \
+	vendor/zte/smarttab/proprietary/lib/libtcpfinaggr.so:system/lib/libtcpfinaggr.so
