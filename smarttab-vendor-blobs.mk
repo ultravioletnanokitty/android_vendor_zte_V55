@@ -83,8 +83,10 @@ PRODUCT_COPY_FILES += \
 	vendor/zte/smarttab/proprietary/bin/mm-qcamera-test:system/bin/mm-qcamera-test \
 	vendor/zte/smarttab/proprietary/bin/mm-mpo-enc-test:system/bin/mm-mpo-enc-test \
 	vendor/zte/smarttab/proprietary/bin/mm-qcamera-testsuite-client:system/bin/mm-qcamera-testsuite-client \
-	vendor/zte/smarttab/proprietary/lib/libcamera.so:obj/lib/libcamera.so \
-	vendor/zte/smarttab/proprietary/lib/libcamera.so:system/lib/libcamera.so \
+	vendor/zte/smarttab/proprietary/lib/libcameraservice.so:obj/lib/libcameraservice.so \
+	vendor/zte/smarttab/proprietary/lib/libcameraservice.so:system/lib/libcameraservice.so \
+	vendor/zte/smarttab/proprietary/lib/libcamera_client.so:obj/lib/libcamera_client.so \
+	vendor/zte/smarttab/proprietary/lib/libcamera_client.so:system/lib/libcamera_client.so \
 	vendor/zte/smarttab/proprietary/lib/hw/camera.msm8660.so:obj/lib/camera.msm8660.so \
 	vendor/zte/smarttab/proprietary/lib/hw/camera.msm8660.so:system/lib/hw/camera.msm8660.so
 
