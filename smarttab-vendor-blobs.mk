@@ -7,6 +7,7 @@
 # Proprietary Executables
 PRODUCT_COPY_FILES += \
 	vendor/zte/smarttab/proprietary/bin/battery_charging:system/bin/battery_charging \
+	vendor/zte/smarttab/proprietary/bin/brcm_patchram_plus:system/bin/brcm_patchram_plus \
 	vendor/zte/smarttab/proprietary/bin/bridgemgrd:system/bin/bridgemgrd \
 	vendor/zte/smarttab/proprietary/bin/port-bridge:system/bin/port-bridge \
 	vendor/zte/smarttab/proprietary/bin/qmiproxy:system/bin/qmiproxy \
