@@ -21,6 +21,25 @@ PRODUCT_COPY_FILES += \
 	vendor/zte/smarttab/proprietary/bin/radish:system/bin/radish \
 	vendor/zte/smarttab/proprietary/bin/hdmid:system/bin/hdmid \
 
+# Firmware
+PRODUCT_COPY_FILES += \
+	vendor/zte/smarttab/proprietary/etc/firmware/a225_pfp.fw:system/etc/firmware/a225_pfp.fw \
+	vendor/zte/smarttab/proprietary/etc/firmware/a225_pm4.fw:system/etc/firmware/a225_pm4.fw \
+	vendor/zte/smarttab/proprietary/etc/firmware/a225p5_pm4.fw:system/etc/firmware/a225p5_pm4.fw \
+	vendor/zte/smarttab/proprietary/etc/firmware/yamato_pfp.fw:system/etc/firmware/yamato_pfp.fw \
+	vendor/zte/smarttab/proprietary/etc/firmware/yamato_pm4.fw:system/etc/firmware/yamato_pm4.fw \
+	vendor/zte/smarttab/proprietary/etc/firmware/bcm4330.hcd:system/etc/firmware/bcm4330.hcd \
+	vendor/zte/smarttab/proprietary/etc/firmware/dsps_fluid.b00:system/etc/firmware/dsps_fluid.b00 \
+	vendor/zte/smarttab/proprietary/etc/firmware/dsps_fluid.b01:system/etc/firmware/dsps_fluid.b01 \
+	vendor/zte/smarttab/proprietary/etc/firmware/dsps_fluid.b02:system/etc/firmware/dsps_fluid.b02 \
+	vendor/zte/smarttab/proprietary/etc/firmware/dsps_fluid.b03:system/etc/firmware/dsps_fluid.b03 \
+	vendor/zte/smarttab/proprietary/etc/firmware/dsps_fluid.mdt:system/etc/firmware/dsps_fluid.mdt \
+	vendor/zte/smarttab/proprietary/etc/firmware/leia_pfp_470.fw:system/etc/firmware/leia_pfp_470.fw \
+	vendor/zte/smarttab/proprietary/etc/firmware/leia_pm4_470.fw:system/etc/firmware/leia_pm4_470.fw \
+	vendor/zte/smarttab/proprietary/etc/firmware/vidc_1080p.fw:system/etc/firmware/vidc_1080p.fw \
+	vendor/zte/smarttab/proprietary/etc/wifi/apsta_bcm4330_b2.bin:system/etc/wifi/apsta_bcm4330_b2.bin \
+	vendor/zte/smarttab/proprietary/etc/wifi/bcm4330_b2.bin:system/etc/wifi/bcm4330_b2.bin
+
 # Radio
 PRODUCT_COPY_FILES += \
 	vendor/zte/smarttab/proprietary/lib/libril-qc-qmi-1.so:system/lib/libril-qc-qmi-1.so \
@@ -55,37 +74,37 @@ PRODUCT_COPY_FILES += \
 
 # GPU
 PRODUCT_COPY_FILES += \
-    vendor/zte/smarttab/proprietary/lib/egl/libEGL_adreno200.so:system/lib/egl/libEGL_adreno200.so \
-    vendor/zte/smarttab/proprietary/lib/egl/libGLESv1_CM_adreno200.so:system/lib/egl/libGLESv1_CM_adreno200.so \
-    vendor/zte/smarttab/proprietary/lib/egl/libGLESv2_adreno200.so:system/lib/egl/libGLESv2_adreno200.so \
-    vendor/zte/smarttab/proprietary/lib/egl/libGLESv2S3D_adreno200.so:system/lib/egl/libGLESv2S3D_adreno200.so \
-    vendor/zte/smarttab/proprietary/lib/egl/libq3dtools_adreno200.so:system/lib/egl/libq3dtools_adreno200.so \
+	vendor/zte/smarttab/proprietary/lib/egl/libEGL_adreno200.so:system/lib/egl/libEGL_adreno200.so \
+	vendor/zte/smarttab/proprietary/lib/egl/libGLESv1_CM_adreno200.so:system/lib/egl/libGLESv1_CM_adreno200.so \
+	vendor/zte/smarttab/proprietary/lib/egl/libGLESv2_adreno200.so:system/lib/egl/libGLESv2_adreno200.so \
+	vendor/zte/smarttab/proprietary/lib/egl/libGLESv2S3D_adreno200.so:system/lib/egl/libGLESv2S3D_adreno200.so \
+	vendor/zte/smarttab/proprietary/lib/egl/libq3dtools_adreno200.so:system/lib/egl/libq3dtools_adreno200.so \
 	vendor/zte/smarttab/proprietary/lib/egl/eglsubAndroid.so:system/lib/egl/eglsubAndroid.so \
 	vendor/zte/smarttab/proprietary/lib/libgsl.so:system/lib/libgsl.so \
 	vendor/zte/smarttab/proprietary/lib/libC2D2.so:system/lib/libC2D2.so \
 	vendor/zte/smarttab/proprietary/lib/libOpenVG.so:system/lib/libOpenVG.so \
 	vendor/zte/smarttab/proprietary/lib/libsc-a2xx.so:system/lib/libsc-a2xx.so \
 	vendor/zte/smarttab/proprietary/lib/libc2d2_z180.so:system/lib/libc2d2_z180.so \
-	
+
 # Camera
 #PRODUCT_COPY_FILES += \
 #	vendor/zte/smarttab/proprietary/lib/libmmipl.so:system/lib/libmmipl.so \
 #	vendor/zte/smarttab/proprietary/lib/libmmjpeg.so:system/lib/libmmjpeg.so \
 #	vendor/zte/smarttab/proprietary/lib/libmmjpeg.so:obj/lib/libmmjpeg.so \
-#   vendor/zte/smarttab/proprietary/lib/liboemcamera.so:obj/lib/liboemcamera.so \
-#   vendor/zte/smarttab/proprietary/lib/liboemcamera.so:system/lib/liboemcamera.so \
+#	vendor/zte/smarttab/proprietary/lib/liboemcamera.so:obj/lib/liboemcamera.so \
+#	vendor/zte/smarttab/proprietary/lib/liboemcamera.so:system/lib/liboemcamera.so \
 #	vendor/zte/smarttab/proprietary/lib/libgemini.so:system/lib/libgemini.so \
 #	vendor/zte/smarttab/proprietary/lib/libmmmpo.so:system/lib/libmmmpo.so \
-#   vendor/zte/smarttab/proprietary/bin/v4l2-qcamera-app:system/bin/v4l2-qcamera-app \
+#	vendor/zte/smarttab/proprietary/bin/v4l2-qcamera-app:system/bin/v4l2-qcamera-app \
 #	vendor/zte/smarttab/proprietary/bin/mm-qcamera-daemon:system/bin/mm-qcamera-daemon \
 #	vendor/zte/smarttab/proprietary/bin/mm-qcamera-test:system/bin/mm-qcamera-test \
 #	vendor/zte/smarttab/proprietary/bin/mm-mpo-enc-test:system/bin/mm-mpo-enc-test \
 #	vendor/zte/smarttab/proprietary/bin/mm-qcamera-testsuite-client:system/bin/mm-qcamera-testsuite-client \
 #	vendor/zte/smarttab/proprietary/lib/libcamera.so:obj/lib/libcamera.so \
-#   vendor/zte/smarttab/proprietary/lib/libcamera.so:system/lib/libcamera.so \
+#	vendor/zte/smarttab/proprietary/lib/libcamera.so:system/lib/libcamera.so \
 #	vendor/zte/smarttab/proprietary/lib/hw/camera.msm8660.so:obj/lib/camera.msm8660.so \
-#   vendor/zte/smarttab/proprietary/lib/hw/camera.msm8660.so:system/lib/hw/camera.msm8660.so \
-	
+#	vendor/zte/smarttab/proprietary/lib/hw/camera.msm8660.so:system/lib/hw/camera.msm8660.so \
+
 # Sensors
 PRODUCT_COPY_FILES += \
 	vendor/zte/smarttab/proprietary/lib/libmpl_sys_jni.so:system/lib/libmpl_sys_jni.so \
