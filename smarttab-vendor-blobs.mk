@@ -86,6 +86,17 @@ PRODUCT_COPY_FILES += \
 	vendor/zte/smarttab/proprietary/lib/libsc-a2xx.so:system/lib/libsc-a2xx.so \
 	vendor/zte/smarttab/proprietary/lib/libc2d2_z180.so:system/lib/libc2d2_z180.so \
 
+# Codecs
+PRODUCT_COPY_FILES += \
+	vendor/zte/smarttab/proprietary/lib/libOmxAacDec.so:/system/lib/libOmxAacDec.so \
+	vendor/zte/smarttab/proprietary/lib/libOmxQcelp13Dec.so:/system/lib/libOmxQcelp13Dec.so \
+	vendor/zte/smarttab/proprietary/lib/libOmxEvrcDec.so:/system/lib/libOmxEvrcDec.so \
+	vendor/zte/smarttab/proprietary/lib/libOmxWmaDec.so:/system/lib/libOmxWmaDec.so \
+	vendor/zte/smarttab/proprietary/lib/libmmparser.so:/system/lib/libmmparser.so \
+	vendor/zte/smarttab/proprietary/lib/libDivxDrm.so:/system/lib/libDivxDrm.so \
+	vendor/zte/smarttab/proprietary/lib/libmmparser_divxdrmlib.so:/system/lib/libmmparser_divxdrmlib.so \
+	vendor/zte/smarttab/proprietary/lib/libmmosal.so:/system/lib/libmmosal.so \
+
 # Camera
 #PRODUCT_COPY_FILES += \
 #	vendor/zte/smarttab/proprietary/lib/libmmipl.so:system/lib/libmmipl.so \
